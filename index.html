@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Coding Assesment L2 boilerplate</title>
+  </head>
+  
+  <body>
+    <div class="shop">
+      <div class="nav">
+        <h1>SELECT YOUR CHOICE</h1>
+        <div class="menu">
+          <button onclick="displayArray(0)" class="active">
+            <span>
+              <img src="icons8-male-50.png" width="20" height="20" />
+            </span>
+            Men
+          </button>
+          <button onclick="displayArray(1)">
+            <span>
+              <img src="icons8-female-50.png" width="20" height="20" />
+             </span>
+               Women
+          </button>
+          <button onclick="displayArray(2)">
+            <span>
+              <img
+                src="icons8-baby-face-50.png"
+                width="20"
+                height="20"
+              /> </span
+            >Kids
+          </button>
+        </div>
+      </div>
+      <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
