@@ -1,67 +1,26 @@
-# Coding Assessment L-2 Code Submission Process with Boilerplate
+# Coding Assessment L-2 Code Submission 
 
-Welcome to the coding assessment l2. We are excited to see your skills in action. Please follow the instructions below to submit your solution.
+## Description
+This project serves as a boilerplate for a coding assessment Level 2. It provides a simple HTML, CSS, and JavaScript setup for displaying products categorized as Men, Women, and Kids. The product data is fetched from an external JSON file, and the corresponding category is displayed based on user selection.
 
-## Getting Started
+**Features**
+|--Responsive design for various screen sizes
+|--Product categories: Men, Women, Kids
+|--Display product information, including title, price, vendor, and image
+|--Add to Cart functionality
 
-1. **Clone or Download:**
-   - If using Git, clone the repository using the following command:
-     ```
-     git clone https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code.git
-     ```
-   - Alternatively, download the code as a ZIP file and extract it.
 
-2. **Navigate to Project Directory:**
-
-3. **Explore the Structure:**
-Take a moment to review the project structure:
-
-        project-root/
-        |-- index.html
-        |-- style.css
-        |-- script.js
-        |-- README.md
-- `index.html`: Main HTML file for your project.
-- `style.css`: CSS file for styling.
-- `script.js`: JavaScript file for scripting logic.
-- `README.md`: Documentation for your project.
+3. **Project Structure:**
+- `index.html`: Main HTML file containing the structure of the webpage.
+- `style.css`: CSS file for styling the webpage.
+- `script.js`: JavaScript file for fetching data and displaying product categories.
+- `icons8-male-50.png`,`icons8-female-50.png`,`icons8-baby-face-50.png` :  Icon images used for category buttons.
   
-> **Important:** Avoid using additional files or a single file for your code. Feel free to organize asset files by creating a separate folder.
+ **How to Run:** 
+   Simply open the index.html file in a web browser.
 
-## Development and Testing
+   
+**How to Run:**
+|--The project uses flexbox for layout and responsiveness.
+|--Product data is fetched from an external JSON file.
 
-4. **Start Working:**
-- Read all requirements that are shared with design files.
-- Open `index.html` in your browser to view the initial state of the project, And start coding.
-- Modify the `style.css` and `script.js` files to implement your solution.
-5. **Testing:**
-- Test your code to ensure it produces the expected output.
-- Ensure that the console (Developer Tools) does not display any errors.
-
-
----
-## Submission Guidelines
-
-### Option 1: GitHub Repository
-
-1. Create a new public repository on GitHub.
-2. Upload your project files (index.html, style.css, script.js) to the repository.
-3. Write a brief description of your project in the README.md file.
-4. Share the repository URL with us.
-
-### Option 2: ZIP File on Google Drive
-
-1. Create a ZIP file of your entire project.
-2. Upload the ZIP file to your Google Drive.
-3. Share the public link to the ZIP file via email.
-
-## Hosting (Bonus)
-You can earn bonus points by hosting your project on a free hosting platform such as GitHub Pages or Netlify.
-
-## Important Notes
-
-- Do not use any third-party libraries or frameworks.
-- Ensure that your project works as intended and is free from errors.
-- Make sure to include clear instructions on how to run your project (if necessary).
-
-Feel free to reach out to invigilator at `rishabh@marmeto.com` if you have any questions. Good luck! We look forward to reviewing your submission.
